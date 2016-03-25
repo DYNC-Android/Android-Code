@@ -1,10 +1,8 @@
 # Dync-Android开发规范
 
 
-[TOC]
 
-
-> ### 书写规范
+> ### **书写规范**
 
 #####1.  编码方式统一用UTF-8. Android Studio默认已是UTF-8。
 ![enter image description here](http://ww1.sinaimg.cn/large/005PCOm1gw1f2952qoy4oj30lm07h0up.jpg)
@@ -84,7 +82,7 @@ private String param2; // 参数2
 #####15. ..... 后面待续..... 
 
 
-> ### 命名规范
+> ### **命名规范**
 
 #####1. **包命名**
  域名反写+Dync+项目名称+模块名称，**小写**
