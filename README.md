@@ -1,6 +1,5 @@
-# Dync-Android编码规范
+# Dync-Android开发规范
 
-以下是铂渊Android编码规范，为了保持代码的可读和规范性，也许其中不是非常的规整，但是足够我们是用不同的编码规范情况；
 
 [TOC]
 
@@ -8,8 +7,10 @@
 > ### 书写规范
 
 1.  编码方式统一用UTF-8. Android Studio默认已是UTF-8。
-
+![enter image description here](http://ww1.sinaimg.cn/large/005PCOm1gw1f2952qoy4oj30lm07h0up.jpg)
 2.  缩进统一为4个空格，将Tab size设置为4则可以保证tab键按4个空格缩进。
+
+
 3.  花括号不单独一行，和前面的代码同一行，并且，花括号和前面的代码用**空格**隔开。保持**`Android Studio`**默认即可。
 ``` java
 	@Override
@@ -87,16 +88,17 @@ private String param2; // 参数2
 
 1. **包命名**
  域名反写+Dync+项目名称+模块名称，**小写**
+![enter image description here](http://ww3.sinaimg.cn/large/005PCOm1gw1f2953acoufj30ga05dmxc.jpg)
 
 2. **类和接口命名**
 使用大驼峰规则，用名词或名词词组命名，每个单词的首字母大写。
-* **activity**类，命名以`Activity`为后缀，如：`LoginActivity`
-* **fragment**类，命名以`Fragment`为后缀，如：`ShareDialogFragment`
-* **service**类，命名以`Service`为后缀，如：`DownloadService`
-* **adapter**类，命名以`Adapter`为后缀，如：`CouponListAdapter`
-* **工具**类，命名以Util为后缀，如：`EncryptUtil`
-* **模型**类，命名以Entity为后缀，如：`CouponEntity`
-* **接口**实现类，命名以Impl为后缀，如：`ApiImpl`
+ * **activity**类，命名以`Activity`为后缀，如：`LoginActivity`
+ * **fragment**类，命名以`Fragment`为后缀，如：`ShareDialogFragment`
+ * **service**类，命名以`Service`为后缀，如：`DownloadService`
+ * **adapter**类，命名以`Adapter`为后缀，如：`CouponListAdapter`
+ * **工具**类，命名以Util为后缀，如：`EncryptUtil`
+ * **模型**类，命名以Entity为后缀，如：`CouponEntity`
+ * **接口**实现类，命名以Impl为后缀，如：`ApiImpl`
 
 3. **方法命名**
 
