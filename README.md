@@ -157,8 +157,8 @@ private String param2; // 参数2
 
 - activity_{范围_}功能，为Activity的命名格式
 - fragment_{范围_}功能，为Fragment的命名格式
- - dialog_{范围_}功能，为Dialog的命名格式
- - item_list_{范围_}功能，为ListView的item命名格式
+- dialog_{范围_}功能，为Dialog的命名格式
+- item_list_{范围_}功能，为ListView的item命名格式
 - item_grid_{范围_}功能，为GridView的item命名格式
 - header_list_{范围_}功能，为ListView的HeaderView命名格式
 - footer_list_{范围_}功能，为ListView的FooterView命名格式
