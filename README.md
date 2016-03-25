@@ -6,12 +6,12 @@
 
 > ### 书写规范
 
-1.  编码方式统一用UTF-8. Android Studio默认已是UTF-8。
+#####1.  编码方式统一用UTF-8. Android Studio默认已是UTF-8。
 ![enter image description here](http://ww1.sinaimg.cn/large/005PCOm1gw1f2952qoy4oj30lm07h0up.jpg)
-2.  缩进统一为4个空格，将Tab size设置为4则可以保证tab键按4个空格缩进。
+#####2.  缩进统一为4个空格，将Tab size设置为4则可以保证tab键按4个空格缩进。
 
 
-3.  花括号不单独一行，和前面的代码同一行，并且，花括号和前面的代码用**空格**隔开。保持**`Android Studio`**默认即可。
+#####3.  花括号不单独一行，和前面的代码同一行，并且，花括号和前面的代码用**空格**隔开。保持**`Android Studio`**默认即可。
 ``` java
 	@Override
     protected int provideContentViewId() { //正确方式
@@ -25,7 +25,7 @@
     }
 ```
 
-4. `if`,`else`，`switch`, `while`等逻辑关键字同样和后面语句留一个**空格**隔开
+#####4. `if`,`else`，`switch`, `while`等逻辑关键字同样和后面语句留一个**空格**隔开
 ``` java
 	@Override
     public void init() {
@@ -38,7 +38,7 @@
 
 ```
 
-5. 空行的使用，逻辑相关的代码用`空行`隔开，注意空行只空一行。
+#####5. 空行的使用，逻辑相关的代码用`空行`隔开，注意空行只空一行。
 * 两个方法之间
 * **方法中两个逻辑段之间**
 * 方法内的局部变量和方法的第一条逻辑语句。
@@ -60,37 +60,37 @@
         }
     }
 ```
-6. 当一个表达式无法容纳一行时，应该换行显示，另起用**8**个空格显示，`Android Studio`默认即可。
+#####6. 当一个表达式无法容纳一行时，应该换行显示，另起用**8**个空格显示，`Android Studio`默认即可。
 
-7. 一行声明一个变量，不要一行声明多个变量，这样有利于写注释。
+#####7. 一行声明一个变量，不要一行声明多个变量，这样有利于写注释。
 ``` java
 private String param1; // 参数1
 private String param2; // 参数2
 ```
 
-8. 行宽设置为100，设置格式化时自动断行到行宽位置。
+#####8. 行宽设置为100，设置格式化时自动断行到行宽位置。
 
-9. 使用快捷键进行代码自动格式化。
+#####9. 使用快捷键进行代码自动格式化。
  ``` Windows: Ctrl + Alt + L```
 
-10. 方法提应该结构分明，不应该超过40行代码；
+#####10. 方法提应该结构分明，不应该超过40行代码；
 
-12. 文字大小的单位统一用sp，元素大小的单位统一用dp。
+#####12. 文字大小的单位统一用sp，元素大小的单位统一用dp。
 
-13. 应用中的字符串统一在strings.xml中定义，然后在代码和布局文件中引用。
+#####13. 应用中的字符串统一在strings.xml中定义，然后在代码和布局文件中引用。
 
-14. 颜色值统一在colors.xml中定义，然后在代码和布局文件中引用。不要在代码和布局文件中引用系统的颜色，除了透明。
+#####14. 颜色值统一在colors.xml中定义，然后在代码和布局文件中引用。不要在代码和布局文件中引用系统的颜色，除了透明。
 
-15. ..... 后面待续..... 
+#####15. ..... 后面待续..... 
 
 
 > ### 命名规范
 
-1. **包命名**
+#####1. **包命名**
  域名反写+Dync+项目名称+模块名称，**小写**
 ![enter image description here](http://ww3.sinaimg.cn/large/005PCOm1gw1f2953acoufj30ga05dmxc.jpg)
 
-2. **类和接口命名**
+#####2. **类和接口命名**
 使用大驼峰规则，用名词或名词词组命名，每个单词的首字母大写。
  * **activity**类，命名以`Activity`为后缀，如：`LoginActivity`
  * **fragment**类，命名以`Fragment`为后缀，如：`ShareDialogFragment`
@@ -100,7 +100,7 @@ private String param2; // 参数2
  * **模型**类，命名以Entity为后缀，如：`CouponEntity`
  * **接口**实现类，命名以Impl为后缀，如：`ApiImpl`
 
-3. **方法命名**
+#####3. **方法命名**
 
 使用小驼峰规则，用动词命名，第一个单词的首字母小写，其他单词的首字母大写。
 	以下为几种常用方法的命名：
@@ -111,7 +111,7 @@ private String param2; // 参数2
 - 通过异步加载数据的方法，命名以load开头，例：loadData
 - 布尔型的判断方法，命名以is或has，或具有逻辑意义的单词如equals，例：isEmpty
 
-4.**控件缩写**
+#####4.**控件缩写**
 
 | 控件       |     缩写       |   控件     |    缩写     |
 | :--------: | :-----------:| :------------: | :-------: |
@@ -124,20 +124,20 @@ private String param2; // 参数2
 | **LinearLayout**  | `llayout`  |  **RelativeLayout**| `rlayout`|
 | **ScrollView**  | `scroll` |  **SearchView** | `search` |
 
-5. **常量命名**
+#####5. **常量命名**
 全部为大写单词，单词之间用下划线分开。
 ``` java
     public final static int PAGE_SIZE = 20;
 ```
 
-6. **变量命名**
+#####6. **变量命名**
 {范围描述（全局or私有）}+类型描述+意义描述的组合，用驼峰式，首字母小写。
 ``` java
 	private Context mContext;   //全局变量
     private TextView tvHeadTitle; // 标题栏的标题
     private Button btnLogin; // 登录按钮
 ```
-7. **控件id命名**
+#####7. **控件id命名**
 控件缩写__意义，类似变量命名；
 ``` xml
 	<!-- 这是标题栏的标题 -->
@@ -151,7 +151,7 @@ private String param2; // 参数2
     ... />
 ```
 
-8. **layout命名**
+#####8. **layout命名**
 组件类型_{范围_}功能，范围可选，只在有明确定义的范围内才需要加上。
 以下为几种常用的组件类型命名：
 
@@ -163,7 +163,7 @@ private String param2; // 参数2
 - header_list_{范围_}功能，为ListView的HeaderView命名格式
 - footer_list_{范围_}功能，为ListView的FooterView命名格式
 
-9. **strings的命名**
+#####9. **strings的命名**
 类型_{范围_}功能，范围可选。
 以下为几种常用的命名：
 
@@ -177,7 +177,7 @@ private String param2; // 参数2
 - 对话框的文字，命名格式为：dialog_文字
 - menu的item文字，命名格式为：action_文字
 
-10. **colors的命名**
+#####10. **colors的命名**
 
 前缀{_控件}{_范围}{_后缀}，控件、范围、后缀可选，但控件和范围至少要有一个。
 
@@ -189,7 +189,7 @@ private String param2; // 参数2
 - 区分状态时，选中时的颜色，添加selected后缀
 - 区分状态时，不可用时的颜色，添加disable后缀
 
-11.**drawable的命名**
+#####11.**drawable的命名**
 
 前缀{_控件}{_范围}{_后缀}，控件、范围、后缀可选，但控件和范围至少要有一个。
 
@@ -203,7 +203,7 @@ private String param2; // 参数2
 - 区分状态时，不可用时的状态，添加disable后缀
 - 多种状态的，添加selector后缀（一般为ListView的selector或按钮的selector）
 
-12.**动画文件命名**
+#####12.**动画文件命名**
 
 动画类型_动画方向。
 
@@ -218,7 +218,7 @@ private String param2; // 参数2
 
 > ### 文件注释
 
-1. 文件头注释
+#####1. 文件头注释
 
 文件顶部统一添加版权声明，声明的格式如下：
 
@@ -229,7 +229,7 @@ private String param2; // 参数2
 ```
 
  
-2.**类和接口注释**
+#####2.**类和接口注释**
 
 类和接口统一添加javadoc注释，格式如下：
 
@@ -242,7 +242,7 @@ private String param2; // 参数2
  */
 ```
 
-3.**方法注释**
+#####3.**方法注释**
 
 下面几种方法，都必须添加javadoc注释，说明该方法的用途和参数说明，以及返回值的说明。
 
@@ -263,7 +263,7 @@ private String param2; // 参数2
 
 public void login(String loginName, String password, ActionCallbackListener<Void> listener);
 
-4.**变量和常量注释**
+#####4.**变量和常量注释**
 
 下面几种情况下的常量和变量，都要添加注释说明，优先采用右侧//来注释，若注释说明太长则在上方添加注释。
 
