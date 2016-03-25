@@ -261,7 +261,7 @@ private String param2; // 参数2
 
 public void login(String loginName, String password, ActionCallbackListener<Void> listener);
 
-4. **变量和常量注释**
+4.**变量和常量注释**
 
 下面几种情况下的常量和变量，都要添加注释说明，优先采用右侧//来注释，若注释说明太长则在上方添加注释。
 
